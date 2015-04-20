@@ -9,5 +9,5 @@ import api.Task;
 public interface Computer extends Remote {
 	public <T> Result<T> execute(Task<T> task) throws RemoteException;
 	
-	public void exit() throws RemoteException; 
+	public void exit() throws RemoteException;
 }
