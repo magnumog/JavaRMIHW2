@@ -18,5 +18,7 @@ public interface Space extends Remote
 
     Result take() throws RemoteException;
     
+    void exit() throws RemoteException;
+    
     void register( Computer computer ) throws RemoteException;
 }
